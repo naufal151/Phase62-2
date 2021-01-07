@@ -1,0 +1,179 @@
+@font-face {
+  font-family: 'Montserrat-ExtraBold';
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 70px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .leftheadlogo {
+  max-height: 30px;
+}
+header ul li {
+  position: relative;
+  list-style: none;
+}
+
+header ul li a .drop {
+  position: relative;;
+  display: inline-block;
+  max-height: 30px;
+}
+
+
+
+section {
+  padding: 70px;
+}
+/*
+.banner {
+  position: relative;
+  min-height: 100vh;
+  background: url(../img/BG1.png);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.banner h2 {
+  font-family: 'Montserrat-ExtraBold';
+  font-size: 36pt;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5em;
+  text-align: center;
+}
+.banner h3 {
+  font-family: 'Montserrat-Regular';
+  font-size: 32pt;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+} */
+
+
+.civitas {
+  background-color: #00000000;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.judul {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 100px;
+  color: #fff
+}
+.judul h2{
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32pt;
+}
+
+.civitas .card {
+  position: relative;
+  max-width: 300px;
+  height: 220px;
+  opacity: 0.9;
+  background: #fff;
+  margin: 50px 20px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0.5px 2px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+  border-radius: 4px;
+}
+.civitas .card:hover{
+  height: 380px;
+}
+
+.civitas .card .passphoto {
+  position: relative;
+  width: 270px;
+  height: 270px;
+  top: -100px;
+  z-index: 1;
+}
+.civitas .card .passphoto img {
+  max-width: 100%;
+}
+
+.civitas .card .biodata {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 10px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.civitas .card:hover .biodata {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -90px;
+  transition-delay: 0.1s;
+}
+
+.civitas .card .biodata h2{
+  font-weight: 600;
+  font-size: 12pt;
+  margin-bottom: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.civitas .card .biodata a{
+  font-weight: 400;
+  margin-bottom: 5px;
+  font-size: 10pt;
+  color: #0e172b;
+  font-family: 'Montserrat', sans-serif;
+}
+.civitas .card .biodata ul{
+  padding: 0;
+}
+
+.civitas .card .biodata ul li{
+  margin-top: 8px;
+  list-style: none;
+  text-align: left;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9pt;
+  color: #111;
+}
